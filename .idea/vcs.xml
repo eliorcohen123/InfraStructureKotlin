@@ -2,10 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/BatteryAppKotlin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Coroutines" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ExchangeAppKotlin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/FindMyLossKotlin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/TMDBAppKotlin" vcs="Git" />
   </component>
 </project>

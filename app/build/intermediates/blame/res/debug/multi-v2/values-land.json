@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\KotlinProjects\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\values-land\\values-land.xml",
