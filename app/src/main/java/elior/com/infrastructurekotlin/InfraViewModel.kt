@@ -12,13 +12,25 @@ class InfraViewModel(application: Application) : AndroidViewModel(application) {
     val allWords: LiveData<List<Infra>>
 
     init {
-        val wordsDao = InfraRoomDatabase.getDatabase(application, viewModelScope).infraDao()
+        val wordsDao = InfraRoomDatabase.getDatabase(application).infraDao()
         repository = InfraRepository(wordsDao)
         allWords = repository.allWords
     }
 
     fun insert(infra: Infra) = viewModelScope.launch {
         repository.insert(infra)
+    }
+
+    fun update(infra: Infra) = viewModelScope.launch {
+        repository.update(infra)
+    }
+
+    fun delete() = viewModelScope.launch {
+        repository.delete()
+    }
+
+    fun deleteAll() = viewModelScope.launch {
+        repository.deleteAll()
     }
 
 }

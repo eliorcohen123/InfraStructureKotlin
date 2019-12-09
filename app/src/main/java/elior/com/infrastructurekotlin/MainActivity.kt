@@ -2,14 +2,14 @@ package elior.com.infrastructurekotlin
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.floatingactionbutton.FloatingActionButton
+import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var infraViewModel: InfraViewModel
 
@@ -17,21 +17,31 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val recyclerView = findViewById<RecyclerView>(R.id.recyclerview)
-        val adapter = InfraListAdapter(this)
+        initListeners()
+        getData()
+    }
 
-        recyclerView.adapter = adapter
-        recyclerView.layoutManager = LinearLayoutManager(this)
+    private fun initListeners() {
+        fab.setOnClickListener(this)
+    }
+
+    private fun getData() {
+        val adapter = InfraListAdapter(this)
+        recyclerview.adapter = adapter
+        recyclerview.layoutManager = LinearLayoutManager(this)
 
         infraViewModel = ViewModelProvider(this).get(InfraViewModel::class.java)
         infraViewModel.allWords.observe(this, Observer { infra ->
             infra?.let { adapter.setInfras(it) }
         })
+    }
 
-        val fab = findViewById<FloatingActionButton>(R.id.fab)
-        fab.setOnClickListener {
-            val intent = Intent(this@MainActivity, NewInfraActivity::class.java)
-            startActivity(intent)
+    override fun onClick(v: View?) {
+        when (v!!.id) {
+            R.id.fab -> {
+                val intent = Intent(this@MainActivity, NewInfraActivity::class.java)
+                startActivity(intent)
+            }
         }
     }
 

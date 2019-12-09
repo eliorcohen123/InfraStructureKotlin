@@ -3,6 +3,7 @@ package elior.com.infrastructurekotlin;
 import android.database.Cursor;
 import androidx.lifecycle.LiveData;
 import androidx.room.CoroutinesRoom;
+import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
@@ -27,6 +28,10 @@ public final class InfraDao_Impl implements InfraDao {
 
   private final EntityInsertionAdapter<Infra> __insertionAdapterOfInfra;
 
+  private final EntityDeletionOrUpdateAdapter<Infra> __updateAdapterOfInfra;
+
+  private final SharedSQLiteStatement __preparedStmtOfDeleteInfra;
+
   private final SharedSQLiteStatement __preparedStmtOfDeleteAll;
 
   public InfraDao_Impl(RoomDatabase __db) {
@@ -44,6 +49,33 @@ public final class InfraDao_Impl implements InfraDao {
         } else {
           stmt.bindString(1, value.getInfra());
         }
+      }
+    };
+    this.__updateAdapterOfInfra = new EntityDeletionOrUpdateAdapter<Infra>(__db) {
+      @Override
+      public String createQuery() {
+        return "UPDATE OR ABORT `InfraStructureKotlin` SET `name` = ? WHERE `name` = ?";
+      }
+
+      @Override
+      public void bind(SupportSQLiteStatement stmt, Infra value) {
+        if (value.getInfra() == null) {
+          stmt.bindNull(1);
+        } else {
+          stmt.bindString(1, value.getInfra());
+        }
+        if (value.getInfra() == null) {
+          stmt.bindNull(2);
+        } else {
+          stmt.bindString(2, value.getInfra());
+        }
+      }
+    };
+    this.__preparedStmtOfDeleteInfra = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "DELETE From InfraStructureKotlin where name = name";
+        return _query;
       }
     };
     this.__preparedStmtOfDeleteAll = new SharedSQLiteStatement(__db) {
@@ -73,6 +105,32 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
+  public void update(final Infra infra) {
+    __db.assertNotSuspendingTransaction();
+    __db.beginTransaction();
+    try {
+      __updateAdapterOfInfra.handle(infra);
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+    }
+  }
+
+  @Override
+  public void deleteInfra() {
+    __db.assertNotSuspendingTransaction();
+    final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteInfra.acquire();
+    __db.beginTransaction();
+    try {
+      _stmt.executeUpdateDelete();
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+      __preparedStmtOfDeleteInfra.release(_stmt);
+    }
+  }
+
+  @Override
   public Object deleteAll(final Continuation<? super Unit> p0) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
@@ -92,7 +150,7 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
-  public LiveData<List<Infra>> getAlphabetizedInfras() {
+  public LiveData<List<Infra>> getInfras() {
     final String _sql = "SELECT * from InfraStructureKotlin ORDER BY name ASC";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     return __db.getInvalidationTracker().createLiveData(new String[]{"InfraStructureKotlin"}, false, new Callable<List<Infra>>() {
