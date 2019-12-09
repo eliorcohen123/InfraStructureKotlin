@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="elior.com.infrastructurekotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\KotlinProjects\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\KotlinProjects\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:5:5-20:19
+12        android:allowBackup="true"
+12-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="false"
+18-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:10:9-36
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="elior.com.infrastructurekotlin.MainActivity" >
+21-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:14:17-69
+23-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:16:17-77
+25-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="elior.com.infrastructurekotlin.NewInfraActivity" />
+28-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:19:9-54
+28-->D:\KotlinProjects\app\src\main\AndroidManifest.xml:19:19-51
+29
+30        <service
+30-->[androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+31            android:name="androidx.room.MultiInstanceInvalidationService"
+31-->[androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+32            android:exported="false" />
+32-->[androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+33
+34        <provider
+34-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
+35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+35-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
+36            android:authorities="elior.com.infrastructurekotlin.lifecycle-process"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
+37            android:exported="false"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
+38            android:multiprocess="true" />
+38-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
+39    </application>
+40
+41</manifest>
