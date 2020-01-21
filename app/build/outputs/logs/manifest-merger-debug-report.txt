@@ -94,10 +94,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\El
 		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:11:9-40
-activity#elior.com.infrastructurekotlin.MainActivity
+activity#elior.com.infrastructurekotlin.ClassesPackage.MainActivity
 ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -108,10 +108,10 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:27-74
-activity#elior.com.infrastructurekotlin.NewInfraActivity
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:9-54
+activity#elior.com.infrastructurekotlin.ClassesPackage.NewInfraActivity
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:9-69
 	android:name
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:19-51
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:19-66
 uses-sdk
 INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml

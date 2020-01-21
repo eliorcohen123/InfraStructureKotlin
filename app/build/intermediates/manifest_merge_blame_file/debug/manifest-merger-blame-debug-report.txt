@@ -28,9 +28,9 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="elior.com.infrastructurekotlin.MainActivity" >
+21        <activity android:name="elior.com.infrastructurekotlin.ClassesPackage.MainActivity" >
 21-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:19-47
+21-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:19-62
 22            <intent-filter>
 22-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:13:13-17:29
 23                <action android:name="android.intent.action.MAIN" />
@@ -42,9 +42,9 @@
 25-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:27-74
 26            </intent-filter>
 27        </activity>
-28        <activity android:name="elior.com.infrastructurekotlin.NewInfraActivity" />
-28-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:9-54
-28-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:19-51
+28        <activity android:name="elior.com.infrastructurekotlin.ClassesPackage.NewInfraActivity" />
+28-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:9-69
+28-->D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:19-66
 29
 30        <service
 30-->[androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40

@@ -18,14 +18,14 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="elior.com.infrastructurekotlin.MainActivity" >
+        <activity android:name="elior.com.infrastructurekotlin.ClassesPackage.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="elior.com.infrastructurekotlin.NewInfraActivity" />
+        <activity android:name="elior.com.infrastructurekotlin.ClassesPackage.NewInfraActivity" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
