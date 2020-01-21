@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import elior.com.infrastructurekotlin.ModelPackage.InfraModel
+import elior.com.infrastructurekotlin.RoomPackage.InfraModel
 import elior.com.infrastructurekotlin.R
 import elior.com.infrastructurekotlin.RoomPackage.InfraViewModel
 import kotlinx.android.synthetic.main.activity_new_word.*

@@ -2,7 +2,6 @@ package elior.com.infrastructurekotlin.RoomPackage
 
 import androidx.lifecycle.LiveData;
 import androidx.room.*
-import elior.com.infrastructurekotlin.ModelPackage.InfraModel
 
 @Dao
 interface InfraDao {

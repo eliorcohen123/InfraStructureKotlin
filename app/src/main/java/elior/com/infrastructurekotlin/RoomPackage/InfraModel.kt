@@ -1,4 +1,4 @@
-package elior.com.infrastructurekotlin.ModelPackage
+package elior.com.infrastructurekotlin.RoomPackage
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

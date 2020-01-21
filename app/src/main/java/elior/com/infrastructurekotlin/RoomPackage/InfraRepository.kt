@@ -1,8 +1,6 @@
 package elior.com.infrastructurekotlin.RoomPackage
 
 import androidx.lifecycle.LiveData
-import elior.com.infrastructurekotlin.ModelPackage.InfraModel
-import elior.com.infrastructurekotlin.RoomPackage.InfraDao
 
 class InfraRepository(private val infraDao: InfraDao) {
 

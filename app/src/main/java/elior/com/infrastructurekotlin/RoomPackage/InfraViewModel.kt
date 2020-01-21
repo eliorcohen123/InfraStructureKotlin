@@ -4,9 +4,6 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import elior.com.infrastructurekotlin.ModelPackage.InfraModel
-import elior.com.infrastructurekotlin.RoomPackage.InfraRepository
-import elior.com.infrastructurekotlin.RoomPackage.InfraRoomDatabase
 import kotlinx.coroutines.launch
 
 class InfraViewModel(application: Application) : AndroidViewModel(application) {
