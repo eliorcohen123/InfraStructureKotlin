@@ -29,8 +29,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun getData() {
-        val adapter =
-            InfraListAdapter(this)
+        val adapter = InfraListAdapter(this)
         recyclerview.adapter = adapter
         recyclerview.layoutManager = LinearLayoutManager(this)
 
