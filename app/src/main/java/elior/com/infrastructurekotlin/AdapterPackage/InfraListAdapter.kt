@@ -6,14 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import elior.com.infrastructurekotlin.RoomPackage.InfraModel
+import elior.com.infrastructurekotlin.RoomPackage.InfraModelRoom
 import elior.com.infrastructurekotlin.R
 
 class InfraListAdapter internal constructor(context: Context) :
     RecyclerView.Adapter<InfraListAdapter.WordViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
-    private var infra = emptyList<InfraModel>()
+    private var infra = emptyList<InfraModelRoom>()
 
     inner class WordViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val infraItemView: TextView = itemView.findViewById(R.id.textView)
@@ -29,8 +29,8 @@ class InfraListAdapter internal constructor(context: Context) :
         holder.infraItemView.text = current.infra
     }
 
-    internal fun setInfras(infraModels: List<InfraModel>) {
-        this.infra = infraModels
+    internal fun setInfras(infraModelRooms: List<InfraModelRoom>) {
+        this.infra = infraModelRooms
         notifyDataSetChanged()
     }
 

@@ -7,13 +7,13 @@ import androidx.room.*
 interface InfraDao {
 
     @Query("SELECT * from InfraStructureKotlin ORDER BY name ASC")
-    fun getInfras(): LiveData<List<InfraModel>>
+    fun getInfras(): LiveData<List<InfraModelRoom>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(infraModel: InfraModel)
+    suspend fun insert(infraModelRoom: InfraModelRoom)
 
     @Update
-    fun update(infraModel: InfraModel)
+    fun update(infraModelRoom: InfraModelRoom)
 
     @Query("DELETE From InfraStructureKotlin where name = name")
     fun deleteInfra()

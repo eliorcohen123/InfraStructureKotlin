@@ -5,4 +5,4 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "InfraStructureKotlin")
-data class InfraModel(@PrimaryKey @ColumnInfo(name = "name") val infra: String)
+data class InfraModelRoom(@PrimaryKey @ColumnInfo(name = "name") val infra: String)

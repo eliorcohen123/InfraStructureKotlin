@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [InfraModel::class], version = 1, exportSchema = false)
+@Database(entities = [InfraModelRoom::class], version = 1, exportSchema = false)
 abstract class InfraRoomDatabase : RoomDatabase() {
 
     abstract fun infraDao(): InfraDao

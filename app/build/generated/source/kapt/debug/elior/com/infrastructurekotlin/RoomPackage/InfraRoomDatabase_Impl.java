@@ -83,7 +83,7 @@ public final class InfraRoomDatabase_Impl extends InfraRoomDatabase {
         final TableInfo _infoInfraStructureKotlin = new TableInfo("InfraStructureKotlin", _columnsInfraStructureKotlin, _foreignKeysInfraStructureKotlin, _indicesInfraStructureKotlin);
         final TableInfo _existingInfraStructureKotlin = TableInfo.read(_db, "InfraStructureKotlin");
         if (! _infoInfraStructureKotlin.equals(_existingInfraStructureKotlin)) {
-          return new RoomOpenHelper.ValidationResult(false, "InfraStructureKotlin(elior.com.infrastructurekotlin.ModelPackage.InfraModel).\n"
+          return new RoomOpenHelper.ValidationResult(false, "InfraStructureKotlin(elior.com.infrastructurekotlin.RoomPackage.InfraModel).\n"
                   + " Expected:\n" + _infoInfraStructureKotlin + "\n"
                   + " Found:\n" + _existingInfraStructureKotlin);
         }

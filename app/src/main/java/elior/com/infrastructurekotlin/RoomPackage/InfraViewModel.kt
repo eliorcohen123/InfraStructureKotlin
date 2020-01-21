@@ -9,7 +9,7 @@ import kotlinx.coroutines.launch
 class InfraViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository: InfraRepository
-    val allWords: LiveData<List<InfraModel>>
+    val allWords: LiveData<List<InfraModelRoom>>
 
     init {
         val wordsDao = InfraRoomDatabase.getDatabase(application).infraDao()
@@ -18,12 +18,12 @@ class InfraViewModel(application: Application) : AndroidViewModel(application) {
         allWords = repository.allWords
     }
 
-    fun insert(infraModel: InfraModel) = viewModelScope.launch {
-        repository.insert(infraModel)
+    fun insert(infraModelRoom: InfraModelRoom) = viewModelScope.launch {
+        repository.insert(infraModelRoom)
     }
 
-    fun update(infraModel: InfraModel) = viewModelScope.launch {
-        repository.update(infraModel)
+    fun update(infraModelRoom: InfraModelRoom) = viewModelScope.launch {
+        repository.update(infraModelRoom)
     }
 
     fun delete() = viewModelScope.launch {

@@ -4,14 +4,14 @@ import androidx.lifecycle.LiveData
 
 class InfraRepository(private val infraDao: InfraDao) {
 
-    val allWords: LiveData<List<InfraModel>> = infraDao.getInfras()
+    val allWords: LiveData<List<InfraModelRoom>> = infraDao.getInfras()
 
-    suspend fun insert(infraModel: InfraModel) {
-        infraDao.insert(infraModel)
+    suspend fun insert(infraModelRoom: InfraModelRoom) {
+        infraDao.insert(infraModelRoom)
     }
 
-    suspend fun update(infraModel: InfraModel) {
-        infraDao.update(infraModel)
+    suspend fun update(infraModelRoom: InfraModelRoom) {
+        infraDao.update(infraModelRoom)
     }
 
     suspend fun delete() {
