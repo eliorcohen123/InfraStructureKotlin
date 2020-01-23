@@ -17,15 +17,15 @@ abstract class InfraRoomDatabase : RoomDatabase() {
         fun getDatabase(context: Context): InfraRoomDatabase {
             return INSTANCE
                 ?: synchronized(this) {
-                val instance = Room.databaseBuilder(
-                    context.applicationContext,
-                    InfraRoomDatabase::class.java,
-                    "InfraStructureKotlin"
-                )
-                    .build()
-                INSTANCE = instance
-                instance
-            }
+                    val instance = Room.databaseBuilder(
+                        context.applicationContext,
+                        InfraRoomDatabase::class.java,
+                        "InfraStructureKotlin"
+                    )
+                        .build()
+                    INSTANCE = instance
+                    instance
+                }
         }
     }
 

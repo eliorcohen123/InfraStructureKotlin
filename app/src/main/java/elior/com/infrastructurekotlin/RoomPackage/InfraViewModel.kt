@@ -13,8 +13,7 @@ class InfraViewModel(application: Application) : AndroidViewModel(application) {
 
     init {
         val wordsDao = InfraRoomDatabase.getDatabase(application).infraDao()
-        repository =
-            InfraRepository(wordsDao)
+        repository = InfraRepository(wordsDao)
         allWords = repository.allWords
     }
 

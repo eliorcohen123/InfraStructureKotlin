@@ -6,19 +6,19 @@ class InfraRepository(private val infraDao: InfraDao) {
 
     val allWords: LiveData<List<InfraModelRoom>> = infraDao.getInfras()
 
-    suspend fun insert(infraModelRoom: InfraModelRoom) {
+    fun insert(infraModelRoom: InfraModelRoom) {
         infraDao.insert(infraModelRoom)
     }
 
-    suspend fun update(infraModelRoom: InfraModelRoom) {
+    fun update(infraModelRoom: InfraModelRoom) {
         infraDao.update(infraModelRoom)
     }
 
-    suspend fun delete() {
+    fun delete() {
         infraDao.deleteInfra()
     }
 
-    suspend fun deleteAll() {
+    fun deleteAll() {
         infraDao.deleteAll()
     }
 

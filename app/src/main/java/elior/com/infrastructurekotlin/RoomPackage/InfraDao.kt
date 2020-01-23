@@ -10,7 +10,7 @@ interface InfraDao {
     fun getInfras(): LiveData<List<InfraModelRoom>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(infraModelRoom: InfraModelRoom)
+    fun insert(infraModelRoom: InfraModelRoom)
 
     @Update
     fun update(infraModelRoom: InfraModelRoom)
@@ -19,5 +19,5 @@ interface InfraDao {
     fun deleteInfra()
 
     @Query("DELETE FROM InfraStructureKotlin")
-    suspend fun deleteAll()
+    fun deleteAll()
 }
