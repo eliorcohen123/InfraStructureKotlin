@@ -38,10 +38,7 @@ class NewInfraActivity : AppCompatActivity(), View.OnClickListener {
                     Toast.makeText(this, "Text Empty", Toast.LENGTH_LONG).show()
                 } else {
                     val infra = edit_word.text.toString()
-                    val infraName =
-                        InfraModelRoom(
-                            infra
-                        )
+                    val infraName = InfraModelRoom(infra)
                     infraViewModel.insert(infraName)
                     finish()
                 }

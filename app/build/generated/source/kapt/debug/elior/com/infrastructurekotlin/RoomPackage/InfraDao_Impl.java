@@ -11,7 +11,7 @@ import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
-import elior.com.infrastructurekotlin.ModelPackage.InfraModel;
+
 import java.lang.Exception;
 import java.lang.Object;
 import java.lang.Override;
@@ -27,9 +27,9 @@ import kotlin.coroutines.Continuation;
 public final class InfraDao_Impl implements InfraDao {
   private final RoomDatabase __db;
 
-  private final EntityInsertionAdapter<InfraModel> __insertionAdapterOfInfraModel;
+  private final EntityInsertionAdapter<InfraModelRoom> __insertionAdapterOfInfraModel;
 
-  private final EntityDeletionOrUpdateAdapter<InfraModel> __updateAdapterOfInfraModel;
+  private final EntityDeletionOrUpdateAdapter<InfraModelRoom> __updateAdapterOfInfraModel;
 
   private final SharedSQLiteStatement __preparedStmtOfDeleteInfra;
 
@@ -37,14 +37,14 @@ public final class InfraDao_Impl implements InfraDao {
 
   public InfraDao_Impl(RoomDatabase __db) {
     this.__db = __db;
-    this.__insertionAdapterOfInfraModel = new EntityInsertionAdapter<InfraModel>(__db) {
+    this.__insertionAdapterOfInfraModel = new EntityInsertionAdapter<InfraModelRoom>(__db) {
       @Override
       public String createQuery() {
         return "INSERT OR IGNORE INTO `InfraStructureKotlin` (`name`) VALUES (?)";
       }
 
       @Override
-      public void bind(SupportSQLiteStatement stmt, InfraModel value) {
+      public void bind(SupportSQLiteStatement stmt, InfraModelRoom value) {
         if (value.getInfra() == null) {
           stmt.bindNull(1);
         } else {
@@ -52,14 +52,14 @@ public final class InfraDao_Impl implements InfraDao {
         }
       }
     };
-    this.__updateAdapterOfInfraModel = new EntityDeletionOrUpdateAdapter<InfraModel>(__db) {
+    this.__updateAdapterOfInfraModel = new EntityDeletionOrUpdateAdapter<InfraModelRoom>(__db) {
       @Override
       public String createQuery() {
         return "UPDATE OR ABORT `InfraStructureKotlin` SET `name` = ? WHERE `name` = ?";
       }
 
       @Override
-      public void bind(SupportSQLiteStatement stmt, InfraModel value) {
+      public void bind(SupportSQLiteStatement stmt, InfraModelRoom value) {
         if (value.getInfra() == null) {
           stmt.bindNull(1);
         } else {
@@ -89,13 +89,13 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
-  public Object insert(final InfraModel infraModel, final Continuation<? super Unit> p1) {
+  public Object insert(final InfraModelRoom infraModelRoom, final Continuation<? super Unit> p1) {
     return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
       @Override
       public Unit call() throws Exception {
         __db.beginTransaction();
         try {
-          __insertionAdapterOfInfraModel.insert(infraModel);
+          __insertionAdapterOfInfraModel.insert(infraModelRoom);
           __db.setTransactionSuccessful();
           return Unit.INSTANCE;
         } finally {
@@ -106,11 +106,11 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
-  public void update(final InfraModel infraModel) {
+  public void update(final InfraModelRoom infraModelRoom) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __updateAdapterOfInfraModel.handle(infraModel);
+      __updateAdapterOfInfraModel.handle(infraModelRoom);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -151,21 +151,21 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
-  public LiveData<List<InfraModel>> getInfras() {
+  public LiveData<List<InfraModelRoom>> getInfras() {
     final String _sql = "SELECT * from InfraStructureKotlin ORDER BY name ASC";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
-    return __db.getInvalidationTracker().createLiveData(new String[]{"InfraStructureKotlin"}, false, new Callable<List<InfraModel>>() {
+    return __db.getInvalidationTracker().createLiveData(new String[]{"InfraStructureKotlin"}, false, new Callable<List<InfraModelRoom>>() {
       @Override
-      public List<InfraModel> call() throws Exception {
+      public List<InfraModelRoom> call() throws Exception {
         final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
         try {
           final int _cursorIndexOfInfra = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
-          final List<InfraModel> _result = new ArrayList<InfraModel>(_cursor.getCount());
+          final List<InfraModelRoom> _result = new ArrayList<InfraModelRoom>(_cursor.getCount());
           while(_cursor.moveToNext()) {
-            final InfraModel _item;
+            final InfraModelRoom _item;
             final String _tmpInfra;
             _tmpInfra = _cursor.getString(_cursorIndexOfInfra);
-            _item = new InfraModel(_tmpInfra);
+            _item = new InfraModelRoom(_tmpInfra);
             _result.add(_item);
           }
           return _result;
