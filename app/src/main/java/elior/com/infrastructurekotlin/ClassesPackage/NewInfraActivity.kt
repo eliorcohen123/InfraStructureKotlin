@@ -46,4 +46,11 @@ class NewInfraActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+//    private lateinit var infraViewModel: InfraViewModel
+
+//    infraViewModel = ViewModelProvider(this).get(InfraViewModel::class.java)
+//    infraViewModel.allWords.observe(this, Observer { infra ->
+//        infra?.let { adapter.setInfras(it) }
+//    })
+
 }
