@@ -15,10 +15,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    private var disposable: Disposable? = null
     private val client by lazy {
         GetDataService.create()
     }
-    private var disposable: Disposable? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,12 +28,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showData() {
-        disposable = client.getAllMovies()
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(
-                { result -> initRecyclerView(result.results.toList()) },
-                { error -> Log.e("ERROR", error.message + " ") })
+        disposable =
+            client.getAllMovies("/3/search/movie?/&query=q&api_key=" + getString(R.string.api_key))
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(
+                    { result -> initRecyclerView(result.results.toList()) },
+                    { error -> Log.e("ERROR", error.message + " ") })
     }
 
     private fun initRecyclerView(dataList: List<MovieModel>) {
