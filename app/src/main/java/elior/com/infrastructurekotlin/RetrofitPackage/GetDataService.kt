@@ -14,9 +14,7 @@ interface GetDataService {
     fun getAllMovies(): Observable<JSONResponse>
 
     companion object {
-
         fun create(): GetDataService {
-
             val retrofit = Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())

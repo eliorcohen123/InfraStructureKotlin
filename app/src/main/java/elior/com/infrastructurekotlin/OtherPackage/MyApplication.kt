@@ -10,7 +10,7 @@ import org.koin.dsl.module
 class MyApplication : Application() {
 
     private val listOfModules = module {
-        single { GetDataService() }
+        single { GetDataService }
     }
 
     override fun onCreate() {
@@ -31,8 +31,4 @@ class MyApplication : Application() {
             return mApplication
         }
     }
-}
-
-private operator fun GetDataService.Companion.invoke(): Any {
-    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
 }
