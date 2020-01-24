@@ -16,6 +16,10 @@
         "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line1.png.flat",
+        "source": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\drawable\\line1.png"
+    },
+    {
         "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
         "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -1024,10 +1028,6 @@
         "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\93bc303e0edf41378a70a682ebb74605\\appcompat-1.1.0\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
-        "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_word.xml.flat",
-        "source": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\layout\\activity_new_word.xml"
-    },
-    {
         "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
         "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\color\\mtrl_btn_ripple_color.xml"
     },
@@ -1458,6 +1458,10 @@
     {
         "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\946093075d78eb9f74f58a48d61f96ab\\material-1.0.0\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable_timg.png.flat",
+        "source": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\drawable\\timg.png"
     },
     {
         "merged": "D:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",

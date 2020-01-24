@@ -21,8 +21,16 @@ class MyApplication : Application() {
             androidContext(this@MyApplication)
             modules(listOfModules)
         }
+
+        mApplication = this;
     }
 
+    companion object {
+        private var mApplication: Application? = null
+        fun getApplication(): Application? {
+            return mApplication
+        }
+    }
 }
 
 private operator fun GetDataService.Companion.invoke(): Any {

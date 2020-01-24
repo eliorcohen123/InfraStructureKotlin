@@ -1,6 +1,7 @@
 package elior.com.infrastructurekotlin.RetrofitPackage
 
 import elior.com.infrastructurekotlin.DataPackage.JSONResponse
+import elior.com.infrastructurekotlin.R
 import io.reactivex.Observable
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
@@ -23,7 +24,7 @@ interface GetDataService {
                 .build()
 
             return retrofit.create(GetDataService::class.java)
-
         }
     }
+
 }
