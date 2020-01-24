@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.room:room-ktx:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\2b2bf9fb5a31e08abbd9a640086e98b3\room-ktx-2.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c0e58243c57ab32f458beffd16a907d4\lifecycle-viewmodel-ktx-2.2.0-rc02\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\946093075d78eb9f74f58a48d61f96ab\material-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -11,6 +11,9 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\EliorCohen\.gradle\cac
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\1dc571f300f3964a1c8004fa01344930\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:17:1-27:12
+MERGED from [org.koin:koin-android:2.0.0-GA] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\01d9d69b1092d1c125249a0a60fa6c27\koin-android-2.0.0-GA\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\117d2c4ac22ee5ab0b64eee97d6cdd53\rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\4b5b42ad315c37cc8e23ff006c2bb3aa\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\cc49b32293b6ca9e924e3f5ec7f94c93\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -42,30 +45,35 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-rc02] C:\Users\EliorCohe
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b0af4bd25e8bd0125497169244a78c79\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\27d1a1802f42fd71684c423c908f5e31\lifecycle-viewmodel-2.2.0-rc02\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b9752b19e6ef0d55ecfabd6e2ebfa1c6\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b49a3cb0a0186e54d18812f26e6e4ce2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c9eb4efc2103a05ad6203fd4d78919fe\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a7ac5d9832a55e02f327cca94b1b2adb\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
 		INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\946093075d78eb9f74f58a48d61f96ab\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\946093075d78eb9f74f58a48d61f96ab\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\140e197d83343f156dc84b9dfd575292\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -74,6 +82,8 @@ MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\cache
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\1dc571f300f3964a1c8004fa01344930\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\1dc571f300f3964a1c8004fa01344930\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:24:5-25:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:24:5-30:19
@@ -83,35 +93,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\El
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:10:9-36
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:13:9-36
 	android:label
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:8:9-51
 activity#elior.com.infrastructurekotlin.ClassesPackage.MainActivity
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:12:19-62
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:27-74
-activity#elior.com.infrastructurekotlin.ClassesPackage.NewInfraActivity
-ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:9-69
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:27-74
+activity#elior.com.infrastructurekotlin.ClassesPackage.FavoritesActivity
+ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:9-70
 	android:name
-		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:19-66
+		ADDED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:19-67
 uses-sdk
 INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
@@ -130,6 +142,12 @@ MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\cache
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\1dc571f300f3964a1c8004fa01344930\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\1dc571f300f3964a1c8004fa01344930\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:20:5-22:41
+MERGED from [org.koin:koin-android:2.0.0-GA] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\01d9d69b1092d1c125249a0a60fa6c27\koin-android-2.0.0-GA\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.0-GA] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\01d9d69b1092d1c125249a0a60fa6c27\koin-android-2.0.0-GA\AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\117d2c4ac22ee5ab0b64eee97d6cdd53\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\117d2c4ac22ee5ab0b64eee97d6cdd53\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\24dca681329175a03d53e389a45c201a\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\4b5b42ad315c37cc8e23ff006c2bb3aa\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
@@ -192,6 +210,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc02] C:\Users\EliorCo
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\27d1a1802f42fd71684c423c908f5e31\lifecycle-viewmodel-2.2.0-rc02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\dfb1f22e942c156be6987681931b441d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b9752b19e6ef0d55ecfabd6e2ebfa1c6\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b9752b19e6ef0d55ecfabd6e2ebfa1c6\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\2958bfeff871706e37e023803895bb19\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\225c82d8c731985fb415caed199cb7eb\interpolator-1.0.0\AndroidManifest.xml:20:5-44
@@ -218,6 +238,14 @@ ADDED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches
 		ADDED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\c382ca2268e1ddf0b3f31b03383f7250\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9bdf671aa81bc1bbd3b75dfec9252167\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\64e64e64dc4a7f72a42155c3d899c336\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
 	android:authorities

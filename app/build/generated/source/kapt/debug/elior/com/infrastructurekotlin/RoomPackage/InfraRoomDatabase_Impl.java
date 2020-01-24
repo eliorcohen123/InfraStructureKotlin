@@ -27,12 +27,12 @@ public final class InfraRoomDatabase_Impl extends InfraRoomDatabase {
 
   @Override
   protected SupportSQLiteOpenHelper createOpenHelper(DatabaseConfiguration configuration) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `InfraStructureKotlin` (`name` TEXT NOT NULL, PRIMARY KEY(`name`))");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `InfraStructureKotlin` (`name` TEXT NOT NULL, `overview` TEXT NOT NULL, `poster_path` TEXT NOT NULL, PRIMARY KEY(`name`))");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '968dcf30c6bcfa239d10516296546806')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c76a31936baba6b31fab1016bc9ee9cf')");
       }
 
       @Override
@@ -76,20 +76,22 @@ public final class InfraRoomDatabase_Impl extends InfraRoomDatabase {
 
       @Override
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsInfraStructureKotlin = new HashMap<String, TableInfo.Column>(1);
+        final HashMap<String, TableInfo.Column> _columnsInfraStructureKotlin = new HashMap<String, TableInfo.Column>(3);
         _columnsInfraStructureKotlin.put("name", new TableInfo.Column("name", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsInfraStructureKotlin.put("overview", new TableInfo.Column("overview", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsInfraStructureKotlin.put("poster_path", new TableInfo.Column("poster_path", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysInfraStructureKotlin = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesInfraStructureKotlin = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoInfraStructureKotlin = new TableInfo("InfraStructureKotlin", _columnsInfraStructureKotlin, _foreignKeysInfraStructureKotlin, _indicesInfraStructureKotlin);
         final TableInfo _existingInfraStructureKotlin = TableInfo.read(_db, "InfraStructureKotlin");
         if (! _infoInfraStructureKotlin.equals(_existingInfraStructureKotlin)) {
-          return new RoomOpenHelper.ValidationResult(false, "InfraStructureKotlin(elior.com.infrastructurekotlin.RoomPackage.InfraModel).\n"
+          return new RoomOpenHelper.ValidationResult(false, "InfraStructureKotlin(elior.com.infrastructurekotlin.RoomPackage.InfraModelRoom).\n"
                   + " Expected:\n" + _infoInfraStructureKotlin + "\n"
                   + " Found:\n" + _existingInfraStructureKotlin);
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "968dcf30c6bcfa239d10516296546806", "2172a934820419a2cc242ac559f04551");
+    }, "c76a31936baba6b31fab1016bc9ee9cf", "f44928f1beaa525a3bfff1e03110bf04");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

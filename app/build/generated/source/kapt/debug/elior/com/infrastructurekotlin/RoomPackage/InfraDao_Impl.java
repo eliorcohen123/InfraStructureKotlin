@@ -2,7 +2,6 @@ package elior.com.infrastructurekotlin.RoomPackage;
 
 import android.database.Cursor;
 import androidx.lifecycle.LiveData;
-import androidx.room.CoroutinesRoom;
 import androidx.room.EntityDeletionOrUpdateAdapter;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
@@ -11,25 +10,21 @@ import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
-
 import java.lang.Exception;
-import java.lang.Object;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
-import kotlin.Unit;
-import kotlin.coroutines.Continuation;
 
 @SuppressWarnings({"unchecked", "deprecation"})
 public final class InfraDao_Impl implements InfraDao {
   private final RoomDatabase __db;
 
-  private final EntityInsertionAdapter<InfraModelRoom> __insertionAdapterOfInfraModel;
+  private final EntityInsertionAdapter<InfraModelRoom> __insertionAdapterOfInfraModelRoom;
 
-  private final EntityDeletionOrUpdateAdapter<InfraModelRoom> __updateAdapterOfInfraModel;
+  private final EntityDeletionOrUpdateAdapter<InfraModelRoom> __updateAdapterOfInfraModelRoom;
 
   private final SharedSQLiteStatement __preparedStmtOfDeleteInfra;
 
@@ -37,38 +32,58 @@ public final class InfraDao_Impl implements InfraDao {
 
   public InfraDao_Impl(RoomDatabase __db) {
     this.__db = __db;
-    this.__insertionAdapterOfInfraModel = new EntityInsertionAdapter<InfraModelRoom>(__db) {
+    this.__insertionAdapterOfInfraModelRoom = new EntityInsertionAdapter<InfraModelRoom>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR IGNORE INTO `InfraStructureKotlin` (`name`) VALUES (?)";
+        return "INSERT OR IGNORE INTO `InfraStructureKotlin` (`name`,`overview`,`poster_path`) VALUES (?,?,?)";
       }
 
       @Override
       public void bind(SupportSQLiteStatement stmt, InfraModelRoom value) {
-        if (value.getInfra() == null) {
+        if (value.getInfraName() == null) {
           stmt.bindNull(1);
         } else {
-          stmt.bindString(1, value.getInfra());
+          stmt.bindString(1, value.getInfraName());
+        }
+        if (value.getInfraOverview() == null) {
+          stmt.bindNull(2);
+        } else {
+          stmt.bindString(2, value.getInfraOverview());
+        }
+        if (value.getInfraImage() == null) {
+          stmt.bindNull(3);
+        } else {
+          stmt.bindString(3, value.getInfraImage());
         }
       }
     };
-    this.__updateAdapterOfInfraModel = new EntityDeletionOrUpdateAdapter<InfraModelRoom>(__db) {
+    this.__updateAdapterOfInfraModelRoom = new EntityDeletionOrUpdateAdapter<InfraModelRoom>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `InfraStructureKotlin` SET `name` = ? WHERE `name` = ?";
+        return "UPDATE OR ABORT `InfraStructureKotlin` SET `name` = ?,`overview` = ?,`poster_path` = ? WHERE `name` = ?";
       }
 
       @Override
       public void bind(SupportSQLiteStatement stmt, InfraModelRoom value) {
-        if (value.getInfra() == null) {
+        if (value.getInfraName() == null) {
           stmt.bindNull(1);
         } else {
-          stmt.bindString(1, value.getInfra());
+          stmt.bindString(1, value.getInfraName());
         }
-        if (value.getInfra() == null) {
+        if (value.getInfraOverview() == null) {
           stmt.bindNull(2);
         } else {
-          stmt.bindString(2, value.getInfra());
+          stmt.bindString(2, value.getInfraOverview());
+        }
+        if (value.getInfraImage() == null) {
+          stmt.bindNull(3);
+        } else {
+          stmt.bindString(3, value.getInfraImage());
+        }
+        if (value.getInfraName() == null) {
+          stmt.bindNull(4);
+        } else {
+          stmt.bindString(4, value.getInfraName());
         }
       }
     };
@@ -89,20 +104,15 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
-  public Object insert(final InfraModelRoom infraModelRoom, final Continuation<? super Unit> p1) {
-    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
-      @Override
-      public Unit call() throws Exception {
-        __db.beginTransaction();
-        try {
-          __insertionAdapterOfInfraModel.insert(infraModelRoom);
-          __db.setTransactionSuccessful();
-          return Unit.INSTANCE;
-        } finally {
-          __db.endTransaction();
-        }
-      }
-    }, p1);
+  public void insert(final InfraModelRoom infraModelRoom) {
+    __db.assertNotSuspendingTransaction();
+    __db.beginTransaction();
+    try {
+      __insertionAdapterOfInfraModelRoom.insert(infraModelRoom);
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+    }
   }
 
   @Override
@@ -110,7 +120,7 @@ public final class InfraDao_Impl implements InfraDao {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __updateAdapterOfInfraModel.handle(infraModelRoom);
+      __updateAdapterOfInfraModelRoom.handle(infraModelRoom);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -132,22 +142,17 @@ public final class InfraDao_Impl implements InfraDao {
   }
 
   @Override
-  public Object deleteAll(final Continuation<? super Unit> p0) {
-    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
-      @Override
-      public Unit call() throws Exception {
-        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteAll.acquire();
-        __db.beginTransaction();
-        try {
-          _stmt.executeUpdateDelete();
-          __db.setTransactionSuccessful();
-          return Unit.INSTANCE;
-        } finally {
-          __db.endTransaction();
-          __preparedStmtOfDeleteAll.release(_stmt);
-        }
-      }
-    }, p0);
+  public void deleteAll() {
+    __db.assertNotSuspendingTransaction();
+    final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteAll.acquire();
+    __db.beginTransaction();
+    try {
+      _stmt.executeUpdateDelete();
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+      __preparedStmtOfDeleteAll.release(_stmt);
+    }
   }
 
   @Override
@@ -159,13 +164,19 @@ public final class InfraDao_Impl implements InfraDao {
       public List<InfraModelRoom> call() throws Exception {
         final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
         try {
-          final int _cursorIndexOfInfra = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+          final int _cursorIndexOfInfraName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+          final int _cursorIndexOfInfraOverview = CursorUtil.getColumnIndexOrThrow(_cursor, "overview");
+          final int _cursorIndexOfInfraImage = CursorUtil.getColumnIndexOrThrow(_cursor, "poster_path");
           final List<InfraModelRoom> _result = new ArrayList<InfraModelRoom>(_cursor.getCount());
           while(_cursor.moveToNext()) {
             final InfraModelRoom _item;
-            final String _tmpInfra;
-            _tmpInfra = _cursor.getString(_cursorIndexOfInfra);
-            _item = new InfraModelRoom(_tmpInfra);
+            final String _tmpInfraName;
+            _tmpInfraName = _cursor.getString(_cursorIndexOfInfraName);
+            final String _tmpInfraOverview;
+            _tmpInfraOverview = _cursor.getString(_cursorIndexOfInfraOverview);
+            final String _tmpInfraImage;
+            _tmpInfraImage = _cursor.getString(_cursorIndexOfInfraImage);
+            _item = new InfraModelRoom(_tmpInfraName,_tmpInfraOverview,_tmpInfraImage);
             _result.add(_item);
           }
           return _result;
