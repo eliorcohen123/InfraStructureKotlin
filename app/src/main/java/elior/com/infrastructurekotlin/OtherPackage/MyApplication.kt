@@ -16,13 +16,13 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
+        mApplication = this
+
         startKoin {
             androidLogger()
             androidContext(this@MyApplication)
             modules(listOfModules)
         }
-
-        mApplication = this;
     }
 
     companion object {
