@@ -27,6 +27,7 @@ class MyApplication : Application() {
 
     companion object {
         private var mApplication: Application? = null
+
         fun getApplication(): Application? {
             return mApplication
         }
