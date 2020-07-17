@@ -7,7 +7,7 @@ import java.lang.System;
 public abstract interface InfraDao {
     
     @org.jetbrains.annotations.NotNull()
-    @androidx.room.Query(value = "SELECT * from InfraStructureKotlin ORDER BY name ASC")
+    @androidx.room.Query(value = "SELECT * from InfraStructureKotlin")
     public abstract androidx.lifecycle.LiveData<java.util.List<elior.com.infrastructurekotlin.RoomPackage.InfraModelRoom>> getInfras();
     
     @androidx.room.Insert(onConflict = androidx.room.OnConflictStrategy.IGNORE)

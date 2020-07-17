@@ -50,10 +50,10 @@ public final class InfraDao_Impl implements InfraDao {
         } else {
           stmt.bindString(2, value.getInfraOverview());
         }
-        if (value.getInfraImage() == null) {
+        if (value.getInfraPosterPath() == null) {
           stmt.bindNull(3);
         } else {
-          stmt.bindString(3, value.getInfraImage());
+          stmt.bindString(3, value.getInfraPosterPath());
         }
       }
     };
@@ -75,10 +75,10 @@ public final class InfraDao_Impl implements InfraDao {
         } else {
           stmt.bindString(2, value.getInfraOverview());
         }
-        if (value.getInfraImage() == null) {
+        if (value.getInfraPosterPath() == null) {
           stmt.bindNull(3);
         } else {
-          stmt.bindString(3, value.getInfraImage());
+          stmt.bindString(3, value.getInfraPosterPath());
         }
         if (value.getInfraName() == null) {
           stmt.bindNull(4);
@@ -157,7 +157,7 @@ public final class InfraDao_Impl implements InfraDao {
 
   @Override
   public LiveData<List<InfraModelRoom>> getInfras() {
-    final String _sql = "SELECT * from InfraStructureKotlin ORDER BY name ASC";
+    final String _sql = "SELECT * from InfraStructureKotlin";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     return __db.getInvalidationTracker().createLiveData(new String[]{"InfraStructureKotlin"}, false, new Callable<List<InfraModelRoom>>() {
       @Override
@@ -166,7 +166,7 @@ public final class InfraDao_Impl implements InfraDao {
         try {
           final int _cursorIndexOfInfraName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
           final int _cursorIndexOfInfraOverview = CursorUtil.getColumnIndexOrThrow(_cursor, "overview");
-          final int _cursorIndexOfInfraImage = CursorUtil.getColumnIndexOrThrow(_cursor, "poster_path");
+          final int _cursorIndexOfInfraPosterPath = CursorUtil.getColumnIndexOrThrow(_cursor, "poster_path");
           final List<InfraModelRoom> _result = new ArrayList<InfraModelRoom>(_cursor.getCount());
           while(_cursor.moveToNext()) {
             final InfraModelRoom _item;
@@ -174,9 +174,9 @@ public final class InfraDao_Impl implements InfraDao {
             _tmpInfraName = _cursor.getString(_cursorIndexOfInfraName);
             final String _tmpInfraOverview;
             _tmpInfraOverview = _cursor.getString(_cursorIndexOfInfraOverview);
-            final String _tmpInfraImage;
-            _tmpInfraImage = _cursor.getString(_cursorIndexOfInfraImage);
-            _item = new InfraModelRoom(_tmpInfraName,_tmpInfraOverview,_tmpInfraImage);
+            final String _tmpInfraPosterPath;
+            _tmpInfraPosterPath = _cursor.getString(_cursorIndexOfInfraPosterPath);
+            _item = new InfraModelRoom(_tmpInfraName,_tmpInfraOverview,_tmpInfraPosterPath);
             _result.add(_item);
           }
           return _result;
