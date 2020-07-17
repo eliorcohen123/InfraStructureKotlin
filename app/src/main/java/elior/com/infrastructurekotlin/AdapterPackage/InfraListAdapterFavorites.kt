@@ -32,7 +32,7 @@ class InfraListAdapterFavorites internal constructor(context: Context) :
         val current = infra[position]
         holder.infraItemView.text = current.infraName
         holder.infraItemViewOverview.text = current.infraOverview
-        Picasso.get().load("https://image.tmdb.org/t/p/original" + current.infraImage)
+        Picasso.get().load("https://image.tmdb.org/t/p/original" + current.infraPosterPath)
             .into(holder.infraItemViewImage)
     }
 

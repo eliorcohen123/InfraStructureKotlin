@@ -8,5 +8,5 @@ import androidx.room.PrimaryKey
 data class InfraModelRoom(
     @PrimaryKey @ColumnInfo(name = "name") val infraName: String,
     @ColumnInfo(name = "overview") val infraOverview: String,
-    @ColumnInfo(name = "poster_path") val infraImage: String
+    @ColumnInfo(name = "poster_path") val infraPosterPath: String
 )

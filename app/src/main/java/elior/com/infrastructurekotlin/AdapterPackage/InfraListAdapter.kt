@@ -44,7 +44,9 @@ class InfraListAdapter internal constructor(context: Context, dataList: List<Mov
             .into(holder.infraItemViewImage)
 
         infraViewModel = MyApplication.getApplication()?.let { InfraViewModel(it) }!!
-        val infraName = InfraModelRoom(current.title, current.overview, current.poster_path)
+        val infraName = InfraModelRoom(
+            current.title.toString(), current.overview.toString(), current.poster_path.toString()
+        )
         infraViewModel.insert(infraName)
         holder.infraLinear.setOnClickListener {
             inflater.context.startActivity(Intent(inflater.context, FavoritesActivity::class.java))

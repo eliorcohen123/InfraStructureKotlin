@@ -6,7 +6,7 @@ import androidx.room.*
 @Dao
 interface InfraDao {
 
-    @Query("SELECT * from InfraStructureKotlin ORDER BY name ASC")
+    @Query("SELECT * from InfraStructureKotlin")
     fun getInfras(): LiveData<List<InfraModelRoom>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
