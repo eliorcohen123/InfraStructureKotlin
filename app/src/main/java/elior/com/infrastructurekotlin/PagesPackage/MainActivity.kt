@@ -1,11 +1,11 @@
-package elior.com.infrastructurekotlin.ClassesPackage
+package elior.com.infrastructurekotlin.PagesPackage
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import elior.com.infrastructurekotlin.AdapterPackage.InfraListAdapter
-import elior.com.infrastructurekotlin.DataPackage.MovieModel
+import elior.com.infrastructurekotlin.CustomAdaptersPackage.CustomAdapterInfraList
+import elior.com.infrastructurekotlin.ModelsPackage.Results
 import elior.com.infrastructurekotlin.R
 import elior.com.infrastructurekotlin.RetrofitPackage.GetDataService
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
                     { error -> Log.e("ERROR", error.message + " ") })
     }
 
-    private fun initRecyclerView(dataList: List<MovieModel>) {
-        recyclerview.adapter = InfraListAdapter(this, dataList)
+    private fun initRecyclerView(dataList: List<Results>) {
+        recyclerview.adapter = CustomAdapterInfraList(this, dataList)
         recyclerview.layoutManager = LinearLayoutManager(this)
     }
 

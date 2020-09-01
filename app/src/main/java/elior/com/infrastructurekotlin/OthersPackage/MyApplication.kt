@@ -1,4 +1,4 @@
-package elior.com.infrastructurekotlin.OtherPackage
+package elior.com.infrastructurekotlin.OthersPackage
 
 import android.app.Application
 import elior.com.infrastructurekotlin.RetrofitPackage.GetDataService

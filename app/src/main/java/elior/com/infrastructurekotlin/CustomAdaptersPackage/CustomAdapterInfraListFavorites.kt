@@ -1,4 +1,4 @@
-package elior.com.infrastructurekotlin.AdapterPackage
+package elior.com.infrastructurekotlin.CustomAdaptersPackage
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -11,8 +11,8 @@ import com.squareup.picasso.Picasso
 import elior.com.infrastructurekotlin.R
 import elior.com.infrastructurekotlin.RoomPackage.InfraModelRoom
 
-class InfraListAdapterFavorites internal constructor(context: Context) :
-    RecyclerView.Adapter<InfraListAdapterFavorites.InfraViewHolder>() {
+class CustomAdapterInfraListFavorites internal constructor(context: Context) :
+    RecyclerView.Adapter<CustomAdapterInfraListFavorites.InfraViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
     private var infra = emptyList<InfraModelRoom>()

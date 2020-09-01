@@ -1,6 +1,6 @@
-package elior.com.infrastructurekotlin.DataPackage
+package elior.com.infrastructurekotlin.ModelsPackage
 
-class MovieModel {
+class Results {
 
     var title: String? = ""
     var overview: String? = ""

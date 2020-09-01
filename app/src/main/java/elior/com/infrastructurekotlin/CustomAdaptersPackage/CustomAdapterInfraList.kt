@@ -1,4 +1,4 @@
-package elior.com.infrastructurekotlin.AdapterPackage
+package elior.com.infrastructurekotlin.CustomAdaptersPackage
 
 import android.content.Context
 import android.content.Intent
@@ -10,15 +10,15 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
-import elior.com.infrastructurekotlin.ClassesPackage.FavoritesActivity
-import elior.com.infrastructurekotlin.DataPackage.MovieModel
-import elior.com.infrastructurekotlin.OtherPackage.MyApplication
+import elior.com.infrastructurekotlin.PagesPackage.FavoritesActivity
+import elior.com.infrastructurekotlin.ModelsPackage.Results
+import elior.com.infrastructurekotlin.OthersPackage.MyApplication
 import elior.com.infrastructurekotlin.R
 import elior.com.infrastructurekotlin.RoomPackage.InfraModelRoom
 import elior.com.infrastructurekotlin.RoomPackage.InfraViewModel
 
-class InfraListAdapter internal constructor(context: Context, dataList: List<MovieModel>) :
-    RecyclerView.Adapter<InfraListAdapter.InfraViewHolder>() {
+class CustomAdapterInfraList internal constructor(context: Context, dataList: List<Results>) :
+    RecyclerView.Adapter<CustomAdapterInfraList.InfraViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
     private var infra = dataList

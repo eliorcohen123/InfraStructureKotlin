@@ -1,11 +1,11 @@
-package elior.com.infrastructurekotlin.ClassesPackage
+package elior.com.infrastructurekotlin.PagesPackage
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import elior.com.infrastructurekotlin.AdapterPackage.InfraListAdapterFavorites
+import elior.com.infrastructurekotlin.CustomAdaptersPackage.CustomAdapterInfraListFavorites
 import elior.com.infrastructurekotlin.R
 import elior.com.infrastructurekotlin.RoomPackage.InfraViewModel
 import kotlinx.android.synthetic.main.activity_main.*
@@ -27,7 +27,7 @@ class FavoritesActivity : AppCompatActivity() {
     }
 
     private fun getData() {
-        val adapter = InfraListAdapterFavorites(this)
+        val adapter = CustomAdapterInfraListFavorites(this)
         recyclerview.adapter = adapter
         recyclerview.layoutManager = LinearLayoutManager(this)
         infraViewModel = ViewModelProvider(this).get(InfraViewModel::class.java)
