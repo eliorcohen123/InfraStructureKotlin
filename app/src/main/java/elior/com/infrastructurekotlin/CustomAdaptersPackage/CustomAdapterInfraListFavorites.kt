@@ -24,7 +24,7 @@ class CustomAdapterInfraListFavorites internal constructor(context: Context) :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InfraViewHolder {
-        val itemView = inflater.inflate(R.layout.recyclerview_item, parent, false)
+        val itemView = inflater.inflate(R.layout.adapter_infra, parent, false)
         return InfraViewHolder(itemView)
     }
 

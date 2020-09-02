@@ -32,7 +32,7 @@ class CustomAdapterInfraList internal constructor(context: Context, dataList: Li
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InfraViewHolder {
-        val itemView = inflater.inflate(R.layout.recyclerview_item, parent, false)
+        val itemView = inflater.inflate(R.layout.adapter_infra, parent, false)
         return InfraViewHolder(itemView)
     }
 
