@@ -17,7 +17,7 @@ class CustomAdapterInfraListFavorites internal constructor(context: Context) :
     private val inflater: LayoutInflater = LayoutInflater.from(context)
     private var infra = emptyList<InfraModelRoom>()
 
-    inner class InfraViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class InfraViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val infraItemView: TextView = itemView.findViewById(R.id.title1)
         val infraItemViewOverview: TextView = itemView.findViewById(R.id.overview1)
         val infraItemViewImage: ImageView = itemView.findViewById(R.id.image1)

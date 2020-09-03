@@ -24,7 +24,7 @@ class CustomAdapterInfraList internal constructor(context: Context, dataList: Li
     private var infra = dataList
     private lateinit var infraViewModel: InfraViewModel
 
-    inner class InfraViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class InfraViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val infraItemViewTitle: TextView = itemView.findViewById(R.id.title1)
         val infraItemViewOverview: TextView = itemView.findViewById(R.id.overview1)
         val infraItemViewImage: ImageView = itemView.findViewById(R.id.image1)

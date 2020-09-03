@@ -1,6 +1,6 @@
 package elior.com.infrastructurekotlin.RoomPackage
 
-import androidx.lifecycle.LiveData;
+import androidx.lifecycle.LiveData
 import androidx.room.*
 
 @Dao
