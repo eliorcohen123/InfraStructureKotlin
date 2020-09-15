@@ -38,12 +38,12 @@ class CustomAdapterInfraList internal constructor(
             Picasso.get().load("https://image.tmdb.org/t/p/original" + part.poster_path)
                 .into(itemView.image1)
 
-            val infraName = InfraModelRoom(
-                part.title.toString(), part.overview.toString(), part.poster_path.toString()
-            )
-            val infraViewModel = MyApplication.getApplication()?.let { InfraViewModel(it) }!!
-            infraViewModel.insert(infraName)
             itemView.linear1.setOnClickListener {
+                val infraName = InfraModelRoom(
+                    part.title.toString(), part.overview.toString(), part.poster_path.toString()
+                )
+                val infraViewModel = MyApplication.getApplication()?.let { InfraViewModel(it) }!!
+                infraViewModel.insert(infraName)
                 context.startActivity(Intent(context, FavoritesActivity::class.java))
             }
         }
