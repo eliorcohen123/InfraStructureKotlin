@@ -4,6 +4,16 @@
             "outputFile": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\4a13b9edce4407ac4f5ba6ce887cba54\\appcompat-1.2.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
                     "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\ba5ad6c0fab9ec5082ac33800e6fd875\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
@@ -20,16 +30,6 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\EliorCohen\\.gradle\\caches\\transforms-2\\files-2.1\\61ea8eeb49bd5deb3f22ee02ac94f173\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 }
             ]

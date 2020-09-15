@@ -27,12 +27,13 @@ class FavoritesActivity : AppCompatActivity() {
     }
 
     private fun getData() {
-        val adapter = CustomAdapterInfraListFavorites(this)
-        recyclerview.adapter = adapter
-        recyclerview.layoutManager = LinearLayoutManager(this)
         infraViewModel = ViewModelProvider(this).get(InfraViewModel::class.java)
         infraViewModel.allWords.observe(this, Observer { infra ->
-            infra?.let { adapter.setInfrasFavorites(it) }
+            infra?.let {
+                val adapter = CustomAdapterInfraListFavorites(it)
+                recyclerview.layoutManager = LinearLayoutManager(this)
+                recyclerview.adapter = adapter
+            }
         })
     }
 

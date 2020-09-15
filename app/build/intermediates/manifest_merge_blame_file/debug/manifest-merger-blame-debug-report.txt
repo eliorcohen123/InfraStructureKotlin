@@ -16,12 +16,12 @@
 12
 13    <application
 13-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:7:5-23:19
-14        android:name="elior.com.infrastructurekotlin.OtherPackage.MyApplication"
-14-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:8:9-51
+14        android:name="elior.com.infrastructurekotlin.OthersPackage.MyApplication"
+14-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:8:9-52
 15        android:allowBackup="true"
 15-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
@@ -35,9 +35,9 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:14:9-40
-25        <activity android:name="elior.com.infrastructurekotlin.ClassesPackage.MainActivity" >
+25        <activity android:name="elior.com.infrastructurekotlin.PagesPackage.MainActivity" >
 25-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:9-21:20
-25-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:19-62
+25-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:19-60
 26            <intent-filter>
 26-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:13-20:29
 27                <action android:name="android.intent.action.MAIN" />
@@ -49,9 +49,9 @@
 29-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:27-74
 30            </intent-filter>
 31        </activity>
-32        <activity android:name="elior.com.infrastructurekotlin.ClassesPackage.FavoritesActivity" />
-32-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:9-70
-32-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:19-67
+32        <activity android:name="elior.com.infrastructurekotlin.PagesPackage.FavoritesActivity" />
+32-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:9-68
+32-->E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:19-65
 33
 34        <service
 34-->[androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
@@ -61,13 +61,13 @@
 36-->[androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
 37
 38        <provider
-38-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 39            android:name="com.squareup.picasso.PicassoProvider"
-39-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 40            android:authorities="elior.com.infrastructurekotlin.com.squareup.picasso"
-40-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 41            android:exported="false" />
-41-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 42        <provider
 42-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\f8f89c038fd70386101d8df04fdcca41\jetified-lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
 43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

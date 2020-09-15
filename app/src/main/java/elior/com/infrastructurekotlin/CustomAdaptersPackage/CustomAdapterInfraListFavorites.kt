@@ -1,45 +1,39 @@
 package elior.com.infrastructurekotlin.CustomAdaptersPackage
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import elior.com.infrastructurekotlin.R
 import elior.com.infrastructurekotlin.RoomPackage.InfraModelRoom
+import kotlinx.android.synthetic.main.adapter_infra.view.*
 
-class CustomAdapterInfraListFavorites internal constructor(context: Context) :
-    RecyclerView.Adapter<CustomAdapterInfraListFavorites.InfraViewHolder>() {
+class CustomAdapterInfraListFavorites internal constructor(
+    private var infraModelRooms: List<InfraModelRoom>
+) :
+    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private val inflater: LayoutInflater = LayoutInflater.from(context)
-    private var infra = emptyList<InfraModelRoom>()
-
-    class InfraViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val infraItemView: TextView = itemView.findViewById(R.id.title1)
-        val infraItemViewOverview: TextView = itemView.findViewById(R.id.overview1)
-        val infraItemViewImage: ImageView = itemView.findViewById(R.id.image1)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+        val inflater = LayoutInflater.from(parent.context)
+        val view = inflater.inflate(R.layout.adapter_infra, parent, false)
+        return PartViewHolder(view)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): InfraViewHolder {
-        val itemView = inflater.inflate(R.layout.adapter_infra, parent, false)
-        return InfraViewHolder(itemView)
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        (holder as PartViewHolder).bind(infraModelRooms[position])
     }
 
-    override fun onBindViewHolder(holder: InfraViewHolder, position: Int) {
-        val current = infra[position]
-        holder.infraItemView.text = current.infraName
-        holder.infraItemViewOverview.text = current.infraOverview
-        Picasso.get().load("https://image.tmdb.org/t/p/original" + current.infraPosterPath)
-            .into(holder.infraItemViewImage)
+    class PartViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        fun bind(part: InfraModelRoom) {
+            itemView.title1.text = part.infraName
+            itemView.overview1.text = part.infraOverview
+            Picasso.get().load("https://image.tmdb.org/t/p/original" + part.infraPosterPath)
+                .into(itemView.image1)
+        }
     }
 
-    internal fun setInfrasFavorites(infraModelRooms: List<InfraModelRoom>) {
-        this.infra = infraModelRooms
-        notifyDataSetChanged()
-    }
-
-    override fun getItemCount() = infra.size
+    override fun getItemCount() = infraModelRooms.size
 }
+
+

@@ -38,8 +38,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView(dataList: List<Results>) {
-        recyclerview.adapter = CustomAdapterInfraList(this, dataList)
         recyclerview.layoutManager = LinearLayoutManager(this)
+        recyclerview.adapter = CustomAdapterInfraList(this, dataList)
     }
 
 }

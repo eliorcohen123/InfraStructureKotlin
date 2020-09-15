@@ -6,17 +6,18 @@ INJECTED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifes
 INJECTED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.room:room-ktx:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\cff8dd804b918b0ed84471ac1a194e8e\jetified-room-ktx-2.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\98b4b41c048132cda8737c12da5ae963\jetified-lifecycle-viewmodel-ktx-2.2.0-rc02\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9d3d56664ce3373ad2a32d9fe286c75e\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ba5ad6c0fab9ec5082ac33800e6fd875\material-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\61ea8eeb49bd5deb3f22ee02ac94f173\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a2a827691a131f27a1760092549d8993\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\4a13b9edce4407ac4f5ba6ce887cba54\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ca41ca3b3f7c2259bced9fdf22420e7d\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:17:1-27:12
 MERGED from [org.koin:koin-android:2.0.0-GA] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\37f947fa8d09687a2e820f8f0cec9c67\jetified-koin-android-2.0.0-GA\AndroidManifest.xml:2:1-7:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\91a408b0cb64fc1a602143cc12e22200\jetified-rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\5520e32a256d92b83e3bda98b9f4c549\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\6e1221132ff9b8caa6de169fd3a92088\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\e24d55cd3fc535372c2abbc7d176c72a\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\39f85cef973cea17b90925eabab3e625\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a3d4faaf5a62d8b3770cd9537cbb118a\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\8dfc64aded3b895e16f0d609f6348349\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\09fa1b042a904f15ffe063e3c4ce8a09\fragment-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0e9d6569731bdd33dd34d4060773e766\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -31,8 +32,7 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\EliorCohen\.gradle\caches\tr
 MERGED from [androidx.activity:activity:1.1.0-rc01] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\31ae70e9408a2fddee6cb87d19e14739\jetified-activity-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\8a5ba3bf092f3b42420c1c2fc833da61\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\5f457bcf8d8e544bc643c1faadd0980a\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\39f85cef973cea17b90925eabab3e625\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\7fc5cfb53350ee7ba6b4f489f7500c4b\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b410ebc8d42dd316d11d7de1b075501c\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\4aa7a67b2f92303e1529001a1ba6e165\lifecycle-livedata-2.2.0-rc02\AndroidManifest.xml:17:1-24:12
@@ -74,24 +74,24 @@ ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.x
 		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9d3d56664ce3373ad2a32d9fe286c75e\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9d3d56664ce3373ad2a32d9fe286c75e\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ba5ad6c0fab9ec5082ac33800e6fd875\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ba5ad6c0fab9ec5082ac33800e6fd875\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a2a827691a131f27a1760092549d8993\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a2a827691a131f27a1760092549d8993\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ca41ca3b3f7c2259bced9fdf22420e7d\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ca41ca3b3f7c2259bced9fdf22420e7d\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:24:5-25:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\f8f89c038fd70386101d8df04fdcca41\jetified-lifecycle-process-2.2.0-rc02\AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\f8f89c038fd70386101d8df04fdcca41\jetified-lifecycle-process-2.2.0-rc02\AndroidManifest.xml:24:5-30:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\e3d1780864a9d3be0e6c1d48b18e0ae4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\e3d1780864a9d3be0e6c1d48b18e0ae4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:13:9-36
 	android:label
@@ -105,11 +105,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\El
 	android:theme
 		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:14:9-40
 	android:name
-		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:8:9-51
-activity#elior.com.infrastructurekotlin.ClassesPackage.MainActivity
+		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:8:9-52
+activity#elior.com.infrastructurekotlin.PagesPackage.MainActivity
 ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:19-62
+		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:15:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
@@ -120,10 +120,10 @@ category#android.intent.category.LAUNCHER
 ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:19:27-74
-activity#elior.com.infrastructurekotlin.ClassesPackage.FavoritesActivity
-ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:9-70
+activity#elior.com.infrastructurekotlin.PagesPackage.FavoritesActivity
+ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:9-68
 	android:name
-		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:19-67
+		ADDED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml:22:19-65
 uses-sdk
 INJECTED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\KotlinProjects\InfraStructureKotlin\app\src\main\AndroidManifest.xml
@@ -132,12 +132,12 @@ MERGED from [androidx.room:room-ktx:2.2.1] C:\Users\EliorCohen\.gradle\caches\tr
 MERGED from [androidx.room:room-ktx:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\cff8dd804b918b0ed84471ac1a194e8e\jetified-room-ktx-2.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\98b4b41c048132cda8737c12da5ae963\jetified-lifecycle-viewmodel-ktx-2.2.0-rc02\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\98b4b41c048132cda8737c12da5ae963\jetified-lifecycle-viewmodel-ktx-2.2.0-rc02\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9d3d56664ce3373ad2a32d9fe286c75e\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\9d3d56664ce3373ad2a32d9fe286c75e\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ba5ad6c0fab9ec5082ac33800e6fd875\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ba5ad6c0fab9ec5082ac33800e6fd875\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\61ea8eeb49bd5deb3f22ee02ac94f173\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\61ea8eeb49bd5deb3f22ee02ac94f173\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a2a827691a131f27a1760092549d8993\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a2a827691a131f27a1760092549d8993\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\4a13b9edce4407ac4f5ba6ce887cba54\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\4a13b9edce4407ac4f5ba6ce887cba54\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\ca41ca3b3f7c2259bced9fdf22420e7d\lifecycle-extensions-2.2.0-rc02\AndroidManifest.xml:20:5-22:41
@@ -146,14 +146,16 @@ MERGED from [org.koin:koin-android:2.0.0-GA] C:\Users\EliorCohen\.gradle\caches\
 MERGED from [org.koin:koin-android:2.0.0-GA] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\37f947fa8d09687a2e820f8f0cec9c67\jetified-koin-android-2.0.0-GA\AndroidManifest.xml:5:5-44
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\91a408b0cb64fc1a602143cc12e22200\jetified-rxandroid-2.0.1\AndroidManifest.xml:19:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\91a408b0cb64fc1a602143cc12e22200\jetified-rxandroid-2.0.1\AndroidManifest.xml:19:5-43
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\5520e32a256d92b83e3bda98b9f4c549\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\5520e32a256d92b83e3bda98b9f4c549\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\6e1221132ff9b8caa6de169fd3a92088\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\6e1221132ff9b8caa6de169fd3a92088\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\e24d55cd3fc535372c2abbc7d176c72a\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\e24d55cd3fc535372c2abbc7d176c72a\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\39f85cef973cea17b90925eabab3e625\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\39f85cef973cea17b90925eabab3e625\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a3d4faaf5a62d8b3770cd9537cbb118a\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a3d4faaf5a62d8b3770cd9537cbb118a\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\8dfc64aded3b895e16f0d609f6348349\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\8dfc64aded3b895e16f0d609f6348349\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.2.0-rc01] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\09fa1b042a904f15ffe063e3c4ce8a09\fragment-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
@@ -182,10 +184,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Elio
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\8a5ba3bf092f3b42420c1c2fc833da61\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\5f457bcf8d8e544bc643c1faadd0980a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\5f457bcf8d8e544bc643c1faadd0980a\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\a8242e1121846dc7ad4ee651efa9ae68\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\39f85cef973cea17b90925eabab3e625\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\39f85cef973cea17b90925eabab3e625\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\99cc98212ed6c7861c16026289efb5db\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\7fc5cfb53350ee7ba6b4f489f7500c4b\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\7fc5cfb53350ee7ba6b4f489f7500c4b\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\b410ebc8d42dd316d11d7de1b075501c\sqlite-2.0.1\AndroidManifest.xml:20:5-44
@@ -239,13 +239,13 @@ ADDED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.1] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\defcc431c0a197570ae4b5479b7bf32b\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
 provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\20647ea26465f795f63d63230746b528\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\0dd6144b8893f8442ce4312142ca63d8\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\EliorCohen\.gradle\caches\transforms-2\files-2.1\f8f89c038fd70386101d8df04fdcca41\jetified-lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
 	android:authorities

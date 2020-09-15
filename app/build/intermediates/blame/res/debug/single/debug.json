@@ -12,10 +12,6 @@
         "source": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_recyclerview_item.xml.flat",
-        "source": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\layout\\recyclerview_item.xml"
-    },
-    {
         "merged": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -38,6 +34,10 @@
     {
         "merged": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_infra.xml.flat",
+        "source": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\src\\main\\res\\layout\\adapter_infra.xml"
     },
     {
         "merged": "E:\\KotlinProjects\\InfraStructureKotlin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
