@@ -9,12 +9,12 @@ import kotlinx.coroutines.launch
 class InfraViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository: InfraRepository
-    val allWords: LiveData<List<InfraModelRoom>>
+    val allInfras: LiveData<List<InfraModelRoom>>
 
     init {
         val wordsDao = InfraRoomDatabase.getDatabase(application).infraDao()
         repository = InfraRepository(wordsDao)
-        allWords = repository.allInfras
+        allInfras = repository.allInfras
     }
 
     fun insert(infraModelRoom: InfraModelRoom) = viewModelScope.launch {
