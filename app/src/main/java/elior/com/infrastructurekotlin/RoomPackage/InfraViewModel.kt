@@ -14,7 +14,7 @@ class InfraViewModel(application: Application) : AndroidViewModel(application) {
     init {
         val wordsDao = InfraRoomDatabase.getDatabase(application).infraDao()
         repository = InfraRepository(wordsDao)
-        allWords = repository.allWords
+        allWords = repository.allInfras
     }
 
     fun insert(infraModelRoom: InfraModelRoom) = viewModelScope.launch {

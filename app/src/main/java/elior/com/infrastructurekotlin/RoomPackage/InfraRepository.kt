@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 
 class InfraRepository(private val infraDao: InfraDao) {
 
-    val allWords: LiveData<List<InfraModelRoom>> = infraDao.getInfras()
+    val allInfras: LiveData<List<InfraModelRoom>> = infraDao.getInfras()
 
     fun insert(infraModelRoom: InfraModelRoom) {
         infraDao.insert(infraModelRoom)
