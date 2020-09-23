@@ -12,8 +12,8 @@ class InfraViewModel(application: Application) : AndroidViewModel(application) {
     val allInfras: LiveData<List<InfraModelRoom>>
 
     init {
-        val wordsDao = InfraRoomDatabase.getDatabase(application).infraDao()
-        repository = InfraRepository(wordsDao)
+        val infraDao = InfraRoomDatabase.getDatabase(application).infraDao()
+        repository = InfraRepository(infraDao)
         allInfras = repository.allInfras
     }
 
