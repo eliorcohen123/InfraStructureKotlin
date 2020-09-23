@@ -18,12 +18,7 @@ class FavoritesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initUI()
         getData()
-    }
-
-    private fun initUI() {
-        infraViewModel = ViewModelProvider(this).get(InfraViewModel::class.java)
     }
 
     private fun getData() {
