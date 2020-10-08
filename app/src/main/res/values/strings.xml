@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">InfraStructureKotlin</string>
     <string name="textView1_itemRowInternet">Overview:</string>
-    <string name="api_key">4e0be2c22f7268edffde97481d49064a</string>
+    <string name="api_key">API_KEY</string>
 </resources>
